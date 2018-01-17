@@ -1,0 +1,50 @@
+/*A2 Contact Form*/
+fieldset {
+  margin-bottom: 10px;
+  position: relative;
+  padding: 2.5em 1em 0.5em 1em;
+  }
+fieldset fieldset {
+  padding-top: 5px;
+  }
+form {
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  width: 50em;
+  }
+input, textarea {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 1em;
+  }
+legend span {
+  position: absolute;
+  left: 0;
+  font-size: 1.25em;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  }
+#submitbutton {
+  border: none;
+  }
+#nameinput, #emailinput, #schoolinput {
+  width: 30em;
+  }
+input:focus, textarea:focus{
+  background: #e6e6e6;
+  }
+#submit {
+  font: 1.25em;
+  background: #e6e6e6;
+  }
+#submitbutton {
+  border: none;
+  background: none;
+  padding: 0.5em 0 0 0;
+  text-align: center;
+  }

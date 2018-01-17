@@ -1,0 +1,100 @@
+/* all other pages */
+
+/*background*/
+body {
+	background: black;
+	background: url("images/background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: 50% 50%;
+	font-family: Varela, Open Sans, sans-serif;
+	}
+/*heading*/
+.logo {
+	display: block;
+	margin-left: 2em;
+	margin-right: auto;
+	margin-bottom: 0.5em;
+	}
+/*navigation*/
+ul {
+    list-style-type: none;
+    margin-top: 2em;
+	margin-bottom: 0;
+    padding: 0;
+	overflow: hidden;
+	background-color: gray;
+}
+li {
+    display: inline-block;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+#nav {
+	text-align: center;
+	padding: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	}
+a {
+	text-align: right;
+	text-shadow: 1px 1px 0 #000;
+	}
+a:link, a:visited, a:active {
+    text-decoration: none;
+	color: white;
+	}
+a:hover {
+    text-decoration: underline;
+	color: white;
+	}
+
+/*body*/
+#box {
+	/*box properties*/
+	padding: 1em;
+	border-style: outset;
+	border-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	/*etc*/
+	background-color: #D8D8D8;
+	text-align: center;
+	}
+#title {
+	font-weight: bold;
+	font-size: 1.5em;
+	}
+/*map.html*/
+#map {
+	margin-left: auto;
+	margin-right: auto;
+	}
+/*proj.html*/
+figcaption {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0.5em 0;
+  margin: 0;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.6);
+  }
+figure {
+  display: inline-block;
+  margin: 0 0 0.5em 1em;
+  text-align: center;
+  position: relative;
+  }
+/*contactus.html*/
+#web {
+	text-decoration: none;
+	color: black;
+	text-shadow: none;
+	}
+#web:hover {
+	font-weight: bold;
+	text-decoration: underline;
+	}
